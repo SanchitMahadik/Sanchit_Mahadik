@@ -97,3 +97,19 @@ div.overlay a:hover {
   color: #38ef7d;
 }
 
+.progress .progress-bar-striped {
+  animation-name: animateBar;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .5s;
+}
+
+@keyframes animateBar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
