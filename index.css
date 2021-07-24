@@ -24,6 +24,12 @@ a:hover {
   transition: all 0.3s;
 }
 
+p.mySelf {
+  text-align: justify;
+  word-break: normal;
+  hyphens: auto;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 0.5rem;
